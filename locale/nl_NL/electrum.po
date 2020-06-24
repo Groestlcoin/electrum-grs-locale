@@ -267,8 +267,8 @@ msgid "About"
 msgstr "Over"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:4
-msgid "About Electrum"
-msgstr "Over Electrum"
+msgid "About Electrum-GRS"
+msgstr "Over Electrum-GRS"
 
 #: electrum/plugins/trustedcoin/qt.py:248
 msgid "Accept"
@@ -349,8 +349,8 @@ msgstr "Geavanceerde weergave"
 
 #: electrum/plugins/trezor/qt.py:528 electrum/plugins/safe_t/qt.py:262
 #: electrum/plugins/keepkey/qt.py:386
-msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
-msgstr "Na het uitschakelen van wachtzinnen kunt u deze Electrum-portemonnee alleen koppelen indien hij een lege wachtzin had. Als de wachtzin niet leeg was moet u een nieuwe portemonnee maken met de installatiewizard. U kunt deze portemonnee altijd opnieuw gebruiken nadat u wachtzinnen opnieuw inschakelt en zijn wachtzin invoert."
+msgid "After disabling passphrases, you can only pair this Electrum-GRS wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgstr "Na het uitschakelen van wachtzinnen kunt u deze Electrum-GRS-portemonnee alleen koppelen indien hij een lege wachtzin had. Als de wachtzin niet leeg was moet u een nieuwe portemonnee maken met de installatiewizard. U kunt deze portemonnee altijd opnieuw gebruiken nadat u wachtzinnen opnieuw inschakelt en zijn wachtzin invoert."
 
 #: electrum/gui/qt/channels_list.py:111
 msgid "After that delay, funds will be sent to an address derived from your wallet seed."
@@ -457,9 +457,9 @@ msgstr "Arabisch"
 #: electrum/plugins/trezor/qt.py:585 electrum/plugins/safe_t/qt.py:319
 #: electrum/plugins/keepkey/qt.py:412
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has groestlcoins in it!"
 msgstr "Weet u ZEKER dat u het apparaat wilt wissen?\n"
-"Uw portemonnee bevat nog bitcoins!"
+"Uw portemonnee bevat nog groestlcoins!"
 
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:368
 #: electrum/gui/qt/channels_list.py:121
@@ -538,8 +538,8 @@ msgid "BIP39 seed"
 msgstr "BIP39-seed"
 
 #: electrum/gui/qt/seed_dialog.py:74
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "BIP39-seeds kunnen worden geïmporteerd in Electrum, zodat gebruikers hun geld uit andere portemonnees kunnen vrijmaken."
+msgid "BIP39 seeds can be imported in Electrum-GRS, so that users can access funds locked in other wallets."
+msgstr "BIP39-seeds kunnen worden geïmporteerd in Electrum-GRS, zodat gebruikers hun geld uit andere portemonnees kunnen vrijmaken."
 
 #: electrum/gui/qt/seed_dialog.py:76
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
@@ -598,8 +598,8 @@ msgid "Batch pay invoices"
 msgstr "Facturen per batch betalen"
 
 #: electrum/gui/qt/main_window.py:788
-msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
-msgstr "Upgrade naar de meest recente versie van Electrum (laatste release of git HEAD) voordat u een bug meldt, en noem uw versienummer in uw melding."
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum-GRS (latest release or git HEAD), and include the version number in your report."
+msgstr "Upgrade naar de meest recente versie van Electrum-GRS (laatste release of git HEAD) voordat u een bug meldt, en noem uw versienummer in uw melding."
 
 #: electrum/plugins/audio_modem/qt.py:58
 msgid "Bit rate [kbps]: "
@@ -614,16 +614,16 @@ msgid "BitBox02 Status"
 msgstr "Status BitBox02"
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:94
-msgid "Bitcoin Address"
-msgstr "Bitcoin-adres"
+msgid "Groestlcoin Address"
+msgstr "Groestlcoin-adres"
 
 #: electrum/gui/qt/main_window.py:1451
-msgid "Bitcoin Address is None"
-msgstr "Geen Bitcoin-adres ingevoerd"
+msgid "Groestlcoin Address is None"
+msgstr "Geen Groestlcoin-adres ingevoerd"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:134
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Bitcoin-transacties zijn meestal niet gratis. De verzender betaalt de transactiekosten."
+msgid "Groestlcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Groestlcoin-transacties zijn meestal niet gratis. De verzender betaalt de transactiekosten."
 
 #: electrum/gui/qt/locktimeedit.py:36
 msgid "Block height"
@@ -1237,16 +1237,16 @@ msgid "Connection strings must be in <node_pubkey>@<host>:<port> format"
 msgstr "Connectie-strings dienen van formaat <node_pubkey>@<host>:<poort> te zijn"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:16
-msgid "Connections with Electrum servers"
-msgstr "Connecties met Electrum-servers"
+msgid "Connections with Electrum-GRS servers"
+msgstr "Connecties met Electrum-GRS-servers"
 
 #: electrum/gui/kivy/uix/ui_screens/lightning.kv:16
 msgid "Connections with lightning nodes"
 msgstr "Connecties met Lightning-nodes"
 
 #: electrum/network.py:202 electrum/network.py:210 electrum/network.py:218
-msgid "Consider trying to connect to a different server, or updating Electrum."
-msgstr "Probeer met een andere server te verbinden, of update Electrum."
+msgid "Consider trying to connect to a different server, or updating Electrum-GRS."
+msgstr "Probeer met een andere server te verbinden, of update Electrum-GRS."
 
 #: electrum/gui/text.py:78 electrum/gui/qt/main_window.py:695
 msgid "Contacts"
@@ -1538,8 +1538,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Apparaatcommunicatiefout. Ontkoppel uw Digital Bitbox en sluit hem opnieuw aan."
 
 #: electrum/plugins/ledger/ledger.py:228
-msgid "Device not in Bitcoin mode"
-msgstr "Apparaat niet in Bitcoin-modus"
+msgid "Device not in Groestlcoin mode"
+msgstr "Apparaat niet in Groestlcoin-modus"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1590,8 +1590,8 @@ msgid "Display your seed?"
 msgstr "Uw seed weergeven?"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
-msgid "Distributed by Electrum Technologies GmbH"
-msgstr "Gedistribueerd door Electrum Technologies GmbH"
+msgid "Distributed by Electrum-GRS Technologies GmbH"
+msgstr "Gedistribueerd door Electrum-GRS Technologies GmbH"
 
 #: electrum/gui/qt/exception_window.py:80
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
@@ -1654,8 +1654,8 @@ msgid "Don't show this again."
 msgstr "Niet opnieuw tonen."
 
 #: electrum/gui/qt/installwizard.py:55
-msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
-msgstr "Vanwege een bug zullen oude versies van Electrum NIET dezelfde portemonnee maken als nieuwere versies of andere software."
+msgid "Due to a bug, old versions of Electrum-GRS will NOT be creating the same wallet as newer versions or other software."
+msgstr "Vanwege een bug zullen oude versies van Electrum-GRS NIET dezelfde portemonnee maken als nieuwere versies of andere software."
 
 #: electrum/i18n.py:68
 msgid "Dutch"
@@ -1683,70 +1683,70 @@ msgid "Edit {}"
 msgstr "Wijzigen {}"
 
 #: electrum/gui/qt/main_window.py:2984
-msgid "Electrum Plugins"
-msgstr "Electrum-plug-ins"
+msgid "Electrum-GRS Plugins"
+msgstr "Electrum-GRS-plug-ins"
 
 #: electrum/plugin.py:557
-msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
-msgstr "Kan Electrum niet koppelen aan uw {}.\n\n"
-"Zorg dat u uw apparaat kunt koppelen, of dat u de seed (en eventuele wachtzin) weet, voordat u verzoekt bitcoins naar adressen in deze portemonnee te sturen. Anders zijn alle bitcoins die u ontvangt niet uit te geven."
+msgid "Electrum-GRS cannot pair with your {}.\n\n"
+"Before you request groestlcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all groestlcoins you receive will be unspendable."
+msgstr "Kan Electrum-GRS niet koppelen aan uw {}.\n\n"
+"Zorg dat u uw apparaat kunt koppelen, of dat u de seed (en eventuele wachtzin) weet, voordat u verzoekt groestlcoins naar adressen in deze portemonnee te sturen. Anders zijn alle groestlcoins die u ontvangt niet uit te geven."
 
 #: electrum/gui/qt/installwizard.py:679
-msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Electrum communiceert met externe servers om informatie te krijgen over uw transacties en adressen. De servers dienen allemaal hetzelfde doel en verschillen slechts in hardware. In de meeste gevallen wilt u Electrum simpelweg een willekeurige server laten kiezen. Het staat u echter vrij handmatig een server kiezen, als dat uw voorkeur heeft."
+msgid "Electrum-GRS communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum-GRS pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "Electrum-GRS communiceert met externe servers om informatie te krijgen over uw transacties en adressen. De servers dienen allemaal hetzelfde doel en verschillen slechts in hardware. In de meeste gevallen wilt u Electrum-GRS simpelweg een willekeurige server laten kiezen. Het staat u echter vrij handmatig een server kiezen, als dat uw voorkeur heeft."
 
 #: electrum/gui/qt/network_dialog.py:261
-msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
-msgstr "Electrum maakt contact met verschillende nodes om blokheaders te downloaden en de langste blokketen te achterhalen."
+msgid "Electrum-GRS connects to several nodes in order to download block headers and find out the longest blockchain."
+msgstr "Electrum-GRS maakt contact met verschillende nodes om blokheaders te downloaden en de langste blokketen te achterhalen."
 
 #: electrum/gui/qt/main_window.py:730
-msgid "Electrum preferences"
-msgstr "Electrum voorkeuren"
+msgid "Electrum-GRS preferences"
+msgstr "Electrum-GRS voorkeuren"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:9
-msgid "Electrum requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
-msgstr "Electrum vraagt uw transactiegeschiedenis op bij één server. De verkregen geschiedenis wordt gecontroleerd met de blokketenheaders verzonden door andere nodes, door gebruik te maken van Simple Payment Verification (SPV)."
+msgid "Electrum-GRS requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
+msgstr "Electrum-GRS vraagt uw transactiegeschiedenis op bij één server. De verkregen geschiedenis wordt gecontroleerd met de blokketenheaders verzonden door andere nodes, door gebruik te maken van Simple Payment Verification (SPV)."
 
 #: electrum/gui/qt/network_dialog.py:283
-msgid "Electrum sends your wallet addresses to a single server, in order to receive your transaction history."
-msgstr "Electrum stuurt uw portemonneeaddressen naar één server, om uw transactiegeschiedenis op te vragen."
+msgid "Electrum-GRS sends your wallet addresses to a single server, in order to receive your transaction history."
+msgstr "Electrum-GRS stuurt uw portemonneeaddressen naar één server, om uw transactiegeschiedenis op te vragen."
 
 #: electrum/gui/qt/installwizard.py:233
-msgid "Electrum wallet"
-msgstr "Electrum-portemonnee"
+msgid "Electrum-GRS wallet"
+msgstr "Electrum-GRS-portemonnee"
 
 #: electrum/gui/qt/main_window.py:620
-msgid "Electrum was unable to copy your wallet file to the specified location."
-msgstr "Electrum was niet in staat uw portemonnee-bestand te kopiëren naar de opgegeven locatie."
+msgid "Electrum-GRS was unable to copy your wallet file to the specified location."
+msgstr "Electrum-GRS was niet in staat uw portemonnee-bestand te kopiëren naar de opgegeven locatie."
 
 #: electrum/gui/qt/transaction_dialog.py:87
-msgid "Electrum was unable to deserialize the transaction:"
-msgstr "Electrum kon de transactie niet ontserialiseren:"
+msgid "Electrum-GRS was unable to deserialize the transaction:"
+msgstr "Electrum-GRS kon de transactie niet ontserialiseren:"
 
 #: electrum/gui/qt/main_window.py:2658
-msgid "Electrum was unable to open your transaction file"
-msgstr "Electrum kon uw transactiebestand niet openen"
+msgid "Electrum-GRS was unable to open your transaction file"
+msgstr "Electrum-GRS kon uw transactiebestand niet openen"
 
 #: electrum/gui/qt/main_window.py:2615
-msgid "Electrum was unable to parse your transaction"
-msgstr "Electrum kon uw transactie niet verwerken"
+msgid "Electrum-GRS was unable to parse your transaction"
+msgstr "Electrum-GRS kon uw transactie niet verwerken"
 
 #: electrum/gui/qt/main_window.py:2783
-msgid "Electrum was unable to produce a private key-export."
-msgstr "Electrum kon geen privésleutelexport doen."
+msgid "Electrum-GRS was unable to produce a private key-export."
+msgstr "Electrum-GRS kon geen privésleutelexport doen."
 
 #: electrum/gui/qt/history_list.py:755
-msgid "Electrum was unable to produce a transaction export."
-msgstr "Electrum kon geen transactie-export doen."
+msgid "Electrum-GRS was unable to produce a transaction export."
+msgstr "Electrum-GRS kon geen transactie-export doen."
 
 #: electrum/gui/qt/main_window.py:3220
-msgid "Electrum will now exit."
-msgstr "Electrum sluit nu af."
+msgid "Electrum-GRS will now exit."
+msgstr "Electrum-GRS sluit nu af."
 
 #: electrum/gui/qt/main_window.py:774
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "Electrum focust op snelheid, met weinig gebruik van systeembronnen en het versimpelen van Bitcoin."
+msgid "Electrum-GRS's focus is speed, with low resource usage and simplifying Groestlcoin."
+msgstr "Electrum-GRS focust op snelheid, met weinig gebruik van systeembronnen en het versimpelen van Groestlcoin."
 
 #: electrum/plugins/email_requests/__init__.py:3
 msgid "Email"
@@ -1896,8 +1896,8 @@ msgid "Enter a label to name your device:"
 msgstr "Een label voor uw apparaat invoeren:"
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Voer een lijst in van Bitcoin-adressen (dit creëert een alleen-lezenportemonnee), of een lijst van privésleutels."
+msgid "Enter a list of Groestlcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Voer een lijst in van Groestlcoin-adressen (dit creëert een alleen-lezenportemonnee), of een lijst van privésleutels."
 
 #: electrum/gui/qt/main_window.py:1952
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -1916,8 +1916,8 @@ msgstr "Voer hieronder een nieuw wachtwoord in."
 #: electrum/plugins/trezor/clientbase.py:279
 #: electrum/plugins/safe_t/clientbase.py:74
 #: electrum/plugins/keepkey/clientbase.py:69
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
-msgstr "Voer een wachtzin in om deze portemonnee aan te maken. Elke keer dat u deze portemonnee gebruikt, zal {} u vragen om de wachtzin. Als u de wachtzin vergeet, kunt u niet bij de bitcoins in de portemonnee."
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the groestlcoins in the wallet."
+msgstr "Voer een wachtzin in om deze portemonnee aan te maken. Elke keer dat u deze portemonnee gebruikt, zal {} u vragen om de wachtzin. Als u de wachtzin vergeet, kunt u niet bij de groestlcoins in de portemonnee."
 
 #: electrum/gui/qt/main_window.py:2926
 msgid "Enter addresses"
@@ -2122,8 +2122,8 @@ msgid "Estimate"
 msgstr "Schatting"
 
 #: electrum/gui/qt/__init__.py:173
-msgid "Exit Electrum"
-msgstr "Electrum afsluiten"
+msgid "Exit Electrum-GRS"
+msgstr "Electrum-GRS afsluiten"
 
 #: electrum/gui/qt/history_list.py:573
 msgid "Expenditures"
@@ -2142,8 +2142,8 @@ msgid "Expired"
 msgstr "Verlopen"
 
 #: electrum/gui/qt/main_window.py:1087
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Verlopen verzoeken moeten handmatig worden verwijderd uit uw lijst, om de bijbehorende Bitcoins-adressen vrij te maken."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Groestlcoin addresses."
+msgstr "Verlopen verzoeken moeten handmatig worden verwijderd uit uw lijst, om de bijbehorende Groestlcoins-adressen vrij te maken."
 
 #: electrum/gui/qt/main_window.py:2008 electrum/gui/qt/main_window.py:2049
 #: electrum/invoices.py:95
@@ -2295,8 +2295,8 @@ msgid "Firmware Version"
 msgstr "Firmwareversie"
 
 #: electrum/plugins/ledger/ledger.py:42
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Firmwareversie (of \"Bitcoin\"-app) te oud om Segwit te ondersteunen. Update op"
+msgid "Firmware version (or \"Groestlcoin\" app) too old for Segwit support. Please update at"
+msgstr "Firmwareversie (of \"Groestlcoin\"-app) te oud om Segwit te ondersteunen. Update op"
 
 #: electrum/plugins/trezor/qt.py:425
 msgid "Firmware version too old."
@@ -2329,8 +2329,8 @@ msgid "For more information, visit"
 msgstr "Voor meer informatie, bezoek"
 
 #: electrum/gui/qt/main_window.py:285
-msgid "For security reasons we advise that you always use the latest version of Electrum."
-msgstr "Uit veiligheidsoverwegingen raden wij u aan altijd de laatste versie van Electrum te gebruiken."
+msgid "For security reasons we advise that you always use the latest version of Electrum-GRS."
+msgstr "Uit veiligheidsoverwegingen raden wij u aan altijd de laatste versie van Electrum-GRS te gebruiken."
 
 #: electrum/gui/qt/channels_list.py:193
 msgid "Force-close channel"
@@ -2547,29 +2547,29 @@ msgstr "IP/poort in formaat:\n"
 "[host]:[poort]"
 
 #: electrum/gui/qt/network_dialog.py:274
-msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
-msgstr "Indien automatisch verbinden is ingeschakeld, zal Electrum altijd een server gebruiken die de langste blokketen heeft."
+msgid "If auto-connect is enabled, Electrum-GRS will always use a server that is on the longest blockchain."
+msgstr "Indien automatisch verbinden is ingeschakeld, zal Electrum-GRS altijd een server gebruiken die de langste blokketen heeft."
 
 #: electrum/gui/qt/settings_dialog.py:324
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr "Indien ingeschakeld kunnen er maximaal 100 satoshis per transactie verloren gaan."
 
 #: electrum/gui/qt/network_dialog.py:275
-msgid "If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
-msgstr "Als dit uitgeschakeld is, moet u een server kiezen die u wilt gebruiken. Electrum waarschuwt u als uw server achterloopt."
+msgid "If it is disabled, you have to choose a server you want to use. Electrum-GRS will warn you if your server is lagging."
+msgstr "Als dit uitgeschakeld is, moet u een server kiezen die u wilt gebruiken. Electrum-GRS waarschuwt u als uw server achterloopt."
 
 #: electrum/gui/qt/settings_dialog.py:132
-msgid "If this option is checked, Electrum will\n"
+msgid "If this option is checked, Electrum-GRS will\n"
 "run a local watchtower to watch your channels if your wallet is not\n"
 "open. For this to work, your computer needs to be online regularly."
-msgstr "Wanneer deze optie wordt gekozen, zal Electrum\n"
+msgstr "Wanneer deze optie wordt gekozen, zal Electrum-GRS\n"
 "een lokale Watchtower draaien om uw kanalen te controleren\n"
 "wanneer uw portemonnee gesloten is. Uw computer moet hiervoor regelmatig online zijn."
 
 #: electrum/gui/qt/settings_dialog.py:143
-msgid "If this option is checked, Electrum will persist as a daemon after\n"
+msgid "If this option is checked, Electrum-GRS will persist as a daemon after\n"
 "you close all your wallet windows. Use this to keep your local watchtower running"
-msgstr "Wanneer deze optie wordt gekozen, zal Electrum\n"
+msgstr "Wanneer deze optie wordt gekozen, zal Electrum-GRS\n"
 "als daemon draaien wanneer alle schermen gesloten zijn. Gebruik dit om uw lokale Watchtower draaiende te houden"
 
 #: electrum/base_wizard.py:411
@@ -2590,8 +2590,8 @@ msgstr "Als u dit aankruist, zullen uw niet-bevestigde transacties worden sameng
 
 #: electrum/plugins/trezor/qt.py:722 electrum/plugins/safe_t/qt.py:456
 #: electrum/plugins/keepkey/qt.py:529
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
-msgstr "Als u uw PIN uitschakelt, kan iedereen met fysieke toegang tot uw {}-apparaat uw bitcoins uitgeven."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your groestlcoins."
+msgstr "Als u uw PIN uitschakelt, kan iedereen met fysieke toegang tot uw {}-apparaat uw groestlcoins uitgeven."
 
 #: electrum/base_wizard.py:478
 msgid "If you do not know what this is, leave this field empty."
@@ -2599,8 +2599,8 @@ msgstr "Als u niet weet wat dit is, laat dit veld dan leeg."
 
 #: electrum/plugins/trezor/qt.py:34 electrum/plugins/safe_t/qt.py:34
 #: electrum/plugins/keepkey/qt.py:34
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
-msgstr "Als u een wachtzin vergeet, kunt u geen toegang krijgen tot bitcoins in de portemonnee erachter. Een wachtzin is iets anders dan een PIN. Wijzig dit alleen als u zeker weet dat u het begrijpt."
+msgid "If you forget a passphrase you will be unable to access any groestlcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Als u een wachtzin vergeet, kunt u geen toegang krijgen tot groestlcoins in de portemonnee erachter. Een wachtzin is iets anders dan een PIN. Wijzig dit alleen als u zeker weet dat u het begrijpt."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:839
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
@@ -2662,12 +2662,12 @@ msgid "Import"
 msgstr "Importeren"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
-msgstr "Bitcoin-adressen importeren"
+msgid "Import Groestlcoin Addresses"
+msgstr "Groestlcoin-adressen importeren"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Bitcoin-adressen of privésleutels importeren"
+msgid "Import Groestlcoin addresses or private keys"
+msgstr "Groestlcoin-adressen of privésleutels importeren"
 
 #: electrum/gui/kivy/main_window.py:1306
 msgid "Import Channel Backup?"
@@ -2833,17 +2833,17 @@ msgstr "Ongeldig bedrag"
 
 #: electrum/gui/kivy/uix/screens.py:312
 #: electrum/plugins/hw_wallet/plugin.py:125
-msgid "Invalid Bitcoin Address"
-msgstr "Ongeldig Bitcoin-adres"
+msgid "Invalid Groestlcoin Address"
+msgstr "Ongeldig Groestlcoin-adres"
 
 #: electrum/gui/stdio.py:175 electrum/gui/text.py:352
-msgid "Invalid Bitcoin address"
-msgstr "Ongeldig Bitcoin-adres"
+msgid "Invalid Groestlcoin address"
+msgstr "Ongeldig Groestlcoin-adres"
 
 #: electrum/wallet.py:1804 electrum/gui/qt/main_window.py:2454
 #: electrum/gui/qt/main_window.py:2482
-msgid "Invalid Bitcoin address."
-msgstr "Ongeldig Bitcoin-adres."
+msgid "Invalid Groestlcoin address."
+msgstr "Ongeldig Groestlcoin-adres."
 
 #: electrum/gui/stdio.py:185 electrum/gui/text.py:362
 msgid "Invalid Fee"
@@ -3077,8 +3077,8 @@ msgid "Lightning keys have been removed. This wallet will be closed"
 msgstr "Lightning-sleutels zijn verwijderd. Deze portemonne wordt gesloten"
 
 #: electrum/gui/kivy/main_window.py:1173 electrum/gui/qt/main_window.py:2277
-msgid "Lightning support in Electrum is experimental. Do not put large amounts in lightning channels."
-msgstr "Lightning-ondersteuning in Electrum is experimenteel. Steek geen grote bedragen in Lightning-kanalen."
+msgid "Lightning support in Electrum-GRS is experimental. Do not put large amounts in lightning channels."
+msgstr "Lightning-ondersteuning in Electrum-GRS is experimenteel. Steek geen grote bedragen in Lightning-kanalen."
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:35
 msgid "Lightning:"
@@ -3149,8 +3149,8 @@ msgid "Make sure you install it with python3"
 msgstr "Zorg dat u het installeert met python3"
 
 #: electrum/gui/qt/main_window.py:547
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Zorg ervoor dat u de eigenaar bent van de seed-zin of privésleutels, voordat u een verzoek doet Bitcoins te sturen naar deze portemonnee."
+msgid "Make sure you own the seed phrase or the private keys, before you request Groestlcoins to be sent to this wallet."
+msgstr "Zorg ervoor dat u de eigenaar bent van de seed-zin of privésleutels, voordat u een verzoek doet Groestlcoins te sturen naar deze portemonnee."
 
 #: electrum/plugins/coldcard/qt.py:134
 msgid "Master Fingerprint"
@@ -3581,8 +3581,8 @@ msgstr "Verbind slechts met één enkele server"
 
 #: electrum/plugins/trezor/qt.py:747 electrum/plugins/safe_t/qt.py:481
 #: electrum/plugins/keepkey/qt.py:554
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr "Wis een apparaat uitsluitend als u de herstelseed heeft opgeschreven en de apparaatportemonnee(s) leeg zijn, anders raken de bitcoins voorgoed verloren."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the groestlcoins will be lost forever."
+msgstr "Wis een apparaat uitsluitend als u de herstelseed heeft opgeschreven en de apparaatportemonnee(s) leeg zijn, anders raken de groestlcoins voorgoed verloren."
 
 #: electrum/gui/qt/channels_list.py:284 electrum/gui/qt/channels_list.py:309
 msgid "Open Channel"
@@ -3679,8 +3679,8 @@ msgstr "PIN niet geüpdatet"
 
 #: electrum/plugins/trezor/qt.py:656 electrum/plugins/safe_t/qt.py:390
 #: electrum/plugins/keepkey/qt.py:486
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
-msgstr "PIN-beveiliging wordt sterk aangeraden. Een PIN is uw enige bescherming tegen diefstal van uw bitcoins als men fysieke toegang krijgt tot uw {}."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your groestlcoins if they obtain physical access to your {}."
+msgstr "PIN-beveiliging wordt sterk aangeraden. Een PIN is uw enige bescherming tegen diefstal van uw groestlcoins als men fysieke toegang krijgt tot uw {}."
 
 #: electrum/plugins/trezor/qt.py:615 electrum/plugins/safe_t/qt.py:349
 #: electrum/plugins/keepkey/qt.py:444
@@ -3931,8 +3931,8 @@ msgid "Please report this issue manually"
 msgstr "Rapporteer het probleem handmatig"
 
 #: electrum/gui/qt/main_window.py:2958
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Herstart Electrum om de nieuwe GUI-instellingen te activeren"
+msgid "Please restart Electrum-GRS to activate the new GUI settings"
+msgstr "Herstart Electrum-GRS om de nieuwe GUI-instellingen te activeren"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1122
 msgid "Please retype your seed phrase, to confirm that you properly saved it"
@@ -3944,8 +3944,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Bewaar deze {0} woorden op papier (volgorde is van belang). "
 
 #: electrum/gui/kivy/uix/screens.py:294
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Scan een Bitcoin-adres of betaalverzoek"
+msgid "Please scan a Groestlcoin address or a payment request"
+msgstr "Scan een Groestlcoin-adres of betaalverzoek"
 
 #: electrum/gui/qt/main_window.py:601
 msgid "Please select a backup directory"
@@ -3981,8 +3981,8 @@ msgid "Please wait"
 msgstr "Een ogenblik geduld"
 
 #: electrum/gui/qt/update_checker.py:93
-msgid "Please wait while Electrum checks for available updates."
-msgstr "Even geduld terwijl Electrum controleert op beschikbare updates."
+msgid "Please wait while Electrum-GRS checks for available updates."
+msgstr "Even geduld terwijl Electrum-GRS controleert op beschikbare updates."
 
 #: electrum/gui/stdio.py:211 electrum/gui/text.py:382
 #: electrum/gui/kivy/uix/dialogs/password_dialog.py:242
@@ -4120,8 +4120,8 @@ msgid "Proxy mode"
 msgstr "Proxymodus"
 
 #: electrum/gui/qt/network_dialog.py:250
-msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
-msgstr "Proxyinstellingen gelden voor alle verbindingen: met Electrum-servers, maar ook met services van derden."
+msgid "Proxy settings apply to all connections: with Electrum-GRS servers, but also with third-party services."
+msgstr "Proxyinstellingen gelden voor alle verbindingen: met Electrum-GRS-servers, maar ook met services van derden."
 
 #: electrum/gui/qt/network_dialog.py:226
 msgid "Proxy user"
@@ -4439,8 +4439,8 @@ msgid "Save transaction offline"
 msgstr "Transactie offline opslaan"
 
 #: electrum/plugins/labels/__init__.py:5
-msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum."
-msgstr "Sla uw portemonneelabels op een externe server op en synchroniseer ze op meerdere apparaten met Electrum."
+msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum-GRS."
+msgstr "Sla uw portemonneelabels op een externe server op en synchroniseer ze op meerdere apparaten met Electrum-GRS."
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:169
 msgid "Scan"
@@ -4686,8 +4686,8 @@ msgid "Shamir"
 msgstr "Shamir"
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:126
-msgid "Share Bitcoin Request"
-msgstr "Bitcoin-verzoek delen"
+msgid "Share Groestlcoin Request"
+msgstr "Groestlcoin-verzoek delen"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:121
 msgid "Share Invoice"
@@ -4835,8 +4835,8 @@ msgid "Slovenian"
 msgstr "Sloveens"
 
 #: electrum/base_crash_reporter.py:54
-msgid "Something went wrong while executing Electrum."
-msgstr "Er ging iets mis bij het uitvoeren van Electrum."
+msgid "Something went wrong while executing Electrum-GRS."
+msgstr "Er ging iets mis bij het uitvoeren van Electrum-GRS."
 
 #: electrum/base_crash_reporter.py:55
 msgid "Sorry!"
@@ -4883,8 +4883,8 @@ msgid "Start"
 msgstr "Begin"
 
 #: electrum/gui/qt/main_window.py:777
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
-msgstr "Het opstarten gebeurt direct omdat Electrum samenwerkt met hoge prestatie-servers die de meest complexe onderdelen van het Bitcoin-systeem regelen."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Groestlcoin system."
+msgstr "Het opstarten gebeurt direct omdat Electrum-GRS samenwerkt met hoge prestatie-servers die de meest complexe onderdelen van het Groestlcoin-systeem regelen."
 
 #: electrum/gui/qt/channel_details.py:169
 msgid "State:"
@@ -4998,8 +4998,8 @@ msgid "Testnet coins are worthless."
 msgstr "Testnet-munten zijn waardeloos."
 
 #: electrum/gui/qt/main_window.py:564
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "Testnet staat los van het hoofd-Bitcoinnetwerk. Het wordt gebruikt om te testen."
+msgid "Testnet is separate from the main Groestlcoin network. It is used for testing."
+msgstr "Testnet staat los van het hoofd-Groestlcoinnetwerk. Het wordt gebruikt om te testen."
 
 #: electrum/gui/qt/qrcodewidget.py:138 electrum/gui/qt/main_window.py:1251
 #: electrum/gui/qt/util.py:766
@@ -5050,8 +5050,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "Het bedrag wordt weergeven in rood, indien uw saldo ontoereikend is."
 
 #: electrum/gui/qt/main_window.py:1088
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Het Bitcoin-adres verloopt nooit en zal altijd onderdeel blijven van deze Electrum-portemonnee."
+msgid "The groestlcoin address never expires and will always be part of this electrum-grs wallet."
+msgstr "Het Groestlcoin-adres verloopt nooit en zal altijd onderdeel blijven van deze Electrum-GRS-portemonnee."
 
 #: electrum/gui/qt/main_window.py:1328
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -5117,8 +5117,8 @@ msgid "The next step will generate the seed of your wallet.  This seed will NOT 
 msgstr "De volgende stap zal de seed van uw portemonne genereren. Deze seed wordt NIET opgeslagen op uw computer en dient opgeschreven te worden op papier. Om de risico's van malware te omzeilen, kunt u ervoor kiezen dit op een offline computer te doen, en uw portemonnee later naar een online computer te verplaatsen."
 
 #: electrum/gui/qt/main_window.py:2447
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Deze bewerking is niet gedefinieerd. Niet alleen in Electrum, maar in het algemeen."
+msgid "The operation is undefined. Not just in Electrum-GRS, but in general."
+msgstr "Deze bewerking is niet gedefinieerd. Niet alleen in Electrum-GRS, maar in het algemeen."
 
 #: electrum/network.py:209
 msgid "The server returned an error when broadcasting the transaction."
@@ -5145,9 +5145,9 @@ msgid "The type of addresses used by your wallet will depend on your seed."
 msgstr "Het adrestype dat gebruikt wordt door uw portemonnee is afhankelijk van uw seed."
 
 #: electrum/gui/qt/installwizard.py:360
-msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
+msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum-GRS 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
-msgstr "De portemonnee '{}' bevat meerdere rekeningen, wat niet langer wordt ondersteund sinds Electrum 2.7.\n\n"
+msgstr "De portemonnee '{}' bevat meerdere rekeningen, wat niet langer wordt ondersteund sinds Electrum-GRS 2.7.\n\n"
 "Wilt u uw portemonnee splitsen in meerdere bestanden?"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:715
@@ -5263,8 +5263,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Dit kan zorgen voor hogere transactiekosten."
 
 #: electrum/gui/qt/main_window.py:546
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Dit betekent dat u hiermee geen Bitcoins kunt uitgeven."
+msgid "This means you will not be able to spend Groestlcoins with it."
+msgstr "Dit betekent dat u hiermee geen Groestlcoins kunt uitgeven."
 
 #: electrum/gui/qt/settings_dialog.py:323
 msgid "This might improve your privacy somewhat."
@@ -5364,8 +5364,8 @@ msgid "This will send {}?"
 msgstr "Dit zal {} versturen?"
 
 #: electrum/base_wizard.py:653
-msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive bitcoins during the transition period."
-msgstr "Daarom wilt u mogelijk een niet-SegWit-portemonnee blijven gebruiken om bitcoins te kunnen ontvangen tijdens deze transitie."
+msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive groestlcoins during the transition period."
+msgstr "Daarom wilt u mogelijk een niet-SegWit-portemonnee blijven gebruiken om groestlcoins te kunnen ontvangen tijdens deze transitie."
 
 #: electrum/gui/qt/history_list.py:493
 msgid "To"
@@ -5418,8 +5418,8 @@ msgid "To prevent that, you should have a backup of this channel on another devi
 msgstr "Om dit te voorkomen, dient u een back-up van dit kanaal op een ander apparaat te bewaren"
 
 #: electrum/gui/qt/transaction_dialog.py:719
-msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
-msgstr "Om uw privacy enigzins te waarborgen, probeert Electrum wisselgeld te maken met vergelijkbare precisie als andere outputs."
+msgid "To somewhat protect your privacy, Electrum-GRS tries to create change with similar precision to other outputs."
+msgstr "Om uw privacy enigzins te waarborgen, probeert Electrum-GRS wisselgeld te maken met vergelijkbare precisie als andere outputs."
 
 #: electrum/base_wizard.py:335
 msgid "To trigger a rescan, press 'Next'."
@@ -5707,8 +5707,8 @@ msgid "Update check failed"
 msgstr "Updatecontrole mislukt"
 
 #: electrum/gui/qt/main_window.py:294
-msgid "Update to Electrum {} is available"
-msgstr "Update naar Electrum {} is beschikbaar"
+msgid "Update to Electrum-GRS {} is available"
+msgstr "Update naar Electrum-GRS {} is beschikbaar"
 
 #: electrum/plugins/coldcard/qt.py:151
 msgid "Upgrade"
@@ -5884,8 +5884,8 @@ msgid "WARNINGS"
 msgstr "WAARSCHUWINGEN"
 
 #: electrum/gui/qt/installwizard.py:45
-msgid "WIF keys are typed in Electrum, based on script type."
-msgstr "WIF-sleutels worden getypeerd in Electrum op basis van het scripttype."
+msgid "WIF keys are typed in Electrum-GRS, based on script type."
+msgstr "WIF-sleutels worden getypeerd in Electrum-GRS op basis van het scripttype."
 
 #: electrum/plugins/trustedcoin/qt.py:75
 msgid "Waiting for TrustedCoin server to sign transaction..."
@@ -5997,8 +5997,8 @@ msgid "Watchtower"
 msgstr "Watchtower"
 
 #: electrum/gui/qt/seed_dialog.py:77
-msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
-msgstr "We garanderen niet dat BIP39-imports altijd ondersteund blijven in Electrum."
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum-GRS."
+msgstr "We garanderen niet dat BIP39-imports altijd ondersteund blijven in Electrum-GRS."
 
 #: electrum/base_wizard.py:368
 msgid "We encountered an error while connecting to your device:"
@@ -6009,8 +6009,8 @@ msgid "What kind of wallet do you want to create?"
 msgstr "Wat voor soort portemonnee wilt u aanmaken?"
 
 #: electrum/base_wizard.py:339
-msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
-msgstr "Hoewel dit niet optimaal is, kan het helpen om Electrum als administrator uit te voeren."
+msgid "While this is less than ideal, it might help if you run Electrum-GRS as Administrator."
+msgstr "Hoewel dit niet optimaal is, kan het helpen om Electrum-GRS als administrator uit te voeren."
 
 #: electrum/plugins/trezor/qt.py:740 electrum/plugins/safe_t/qt.py:474
 #: electrum/plugins/keepkey/qt.py:547
@@ -6031,8 +6031,8 @@ msgid "Witness Script"
 msgstr "Witness-script"
 
 #: electrum/gui/qt/main_window.py:286
-msgid "Would you like to be notified when there is a newer version of Electrum available?"
-msgstr "Wilt u op de hoogte gehouden worden wanneer een nieuwe versie van Electrum beschikbaar komt?"
+msgid "Would you like to be notified when there is a newer version of Electrum-GRS available?"
+msgstr "Wilt u op de hoogte gehouden worden wanneer een nieuwe versie van Electrum-GRS beschikbaar komt?"
 
 #: electrum/plugins/trezor/clientbase.py:24
 #: electrum/plugins/safe_t/clientbase.py:22
@@ -6067,8 +6067,8 @@ msgid "Yes"
 msgstr "Ja"
 
 #: electrum/gui/qt/update_checker.py:90
-msgid "You are already on the latest version of Electrum."
-msgstr "U heeft al de laatste versie van Electrum."
+msgid "You are already on the latest version of Electrum-GRS."
+msgstr "U heeft al de laatste versie van Electrum-GRS."
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:52
 #: electrum/gui/qt/network_dialog.py:344
@@ -6080,8 +6080,8 @@ msgid "You are in testnet mode."
 msgstr "U bent in testnet-modus."
 
 #: electrum/crypto.py:166
-msgid "You are most likely using an outdated version of Electrum. Please update."
-msgstr "U gebruikt waarschijnlijk een verouderde versie van Electrum. Voer een update uit."
+msgid "You are most likely using an outdated version of Electrum-GRS. Please update."
+msgstr "U gebruikt waarschijnlijk een verouderde versie van Electrum-GRS. Voer een update uit."
 
 #: electrum/plugins/labels/labels.py:170 electrum/plugins/labels/labels.py:174
 msgid "You are offline."
@@ -6121,15 +6121,15 @@ msgstr "U kunt kanaalback-ups niet gebruiken om Lightning-betalingen uit te voer
 
 #: electrum/gui/qt/main_window.py:775
 msgid "You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper."
-msgstr "Het is niet nodig om reguliere back-ups van de Bitcoin-portemonnee te maken, aangezien de portemonnee kan worden hersteld door middel van een wachtzin welke uit het hoofd kan worden geleerd of kan worden opgeschreven op papier."
+msgstr "Het is niet nodig om reguliere back-ups van de Groestlcoin-portemonnee te maken, aangezien de portemonnee kan worden hersteld door middel van een wachtzin welke uit het hoofd kan worden geleerd of kan worden opgeschreven op papier."
 
 #: electrum/gui/qt/installwizard.py:52
 msgid "You have multiple consecutive whitespaces or leading/trailing whitespaces in your passphrase."
 msgstr "U heeft meerdere spaties achter elkaar, of spaties aan het begin of eind van uw wachtzin."
 
 #: electrum/gui/qt/main_window.py:1317
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "U kunt een Bitcoin-adres, een label van uw contactenlijst (suggesties worden automatisch aangevuld) of een alias (lijkt op een e-mailadres dat doorstuurt naar een Bitcoin-adres) invoeren"
+msgid "You may enter a Groestlcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Groestlcoin address)"
+msgstr "U kunt een Groestlcoin-adres, een label van uw contactenlijst (suggesties worden automatisch aangevuld) of een alias (lijkt op een e-mailadres dat doorstuurt naar een Groestlcoin-adres) invoeren"
 
 #: electrum/base_wizard.py:473
 msgid "You may extend your seed with custom words."
@@ -6144,8 +6144,8 @@ msgid "You might have an incompatible library."
 msgstr "U gebruikt mogelijk een incompatibele library."
 
 #: electrum/plugins/trustedcoin/qt.py:217
-msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum."
-msgstr "U dient online te zijn om uw portemonnee af te maken. Indien u uw seed genereerde op een offline computer, drukt u op \"{}\" om dit scherm te sluiten en verplaatst u uw portemonneebestand naar een online computer. Hier opent u het bestand vervolgens met Electrum."
+msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum-GRS."
+msgstr "U dient online te zijn om uw portemonnee af te maken. Indien u uw seed genereerde op een offline computer, drukt u op \"{}\" om dit scherm te sluiten en verplaatst u uw portemonneebestand naar een online computer. Hier opent u het bestand vervolgens met Electrum-GRS."
 
 #: electrum/gui/qt/main_window.py:626
 msgid "You need to configure a backup directory in your preferences"
@@ -6153,8 +6153,8 @@ msgstr "U dient een back-upmap in te stellen in uw voorkeuren"
 
 #: electrum/plugins/trezor/qt.py:26 electrum/plugins/safe_t/qt.py:26
 #: electrum/plugins/keepkey/qt.py:26
-msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
-msgstr "U moet een aparte Electrum-portemonnee maken voor elke wachtzin die u gebruikt, aangezien elk andere adressen genereert. Het wijzigen van uw wachtzin leidt niet tot verlies van andere portemonnees, elk blijft beschikbaar achter zijn eigen wachtzin."
+msgid "You need to create a separate Electrum-GRS wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr "U moet een aparte Electrum-GRS-portemonnee maken voor elke wachtzin die u gebruikt, aangezien elk andere adressen genereert. Het wijzigen van uw wachtzin leidt niet tot verlies van andere portemonnees, elk blijft beschikbaar achter zijn eigen wachtzin."
 
 #: electrum/gui/qt/swap_dialog.py:66
 msgid "You receive"
@@ -6166,8 +6166,8 @@ msgstr "U verzendt"
 
 #: electrum/plugins/trezor/qt.py:31 electrum/plugins/safe_t/qt.py:31
 #: electrum/plugins/keepkey/qt.py:31
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
-msgstr "U zou PIN-beveiliging moeten inschakelen. Uw PIN is de enige bescherming van uw bitcoins bij verlies of diefstal van uw apparaat."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your groestlcoins if your device is lost or stolen."
+msgstr "U zou PIN-beveiliging moeten inschakelen. Uw PIN is de enige bescherming van uw groestlcoins bij verlies of diefstal van uw apparaat."
 
 #: electrum/plugins/trezor/trezor.py:231 electrum/plugins/safe_t/safe_t.py:206
 msgid "You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n\n"
@@ -6192,13 +6192,13 @@ msgid "Your accounts have been moved to"
 msgstr "Uw accounts zijn verplaatst naar"
 
 #: electrum/gui/qt/password_dialog.py:255
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "Uw bitcoins zijn met wachtwoord beveiligd, maar uw portemonneebestand is niet versleuteld."
+msgid "Your groestlcoins are password protected. However, your wallet file is not encrypted."
+msgstr "Uw groestlcoins zijn met wachtwoord beveiligd, maar uw portemonneebestand is niet versleuteld."
 
 #: electrum/plugins/trezor/qt.py:535 electrum/plugins/safe_t/qt.py:269
 #: electrum/plugins/keepkey/qt.py:393
-msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
-msgstr "Uw huidige Electrum-portemonnee kan uitsluitend worden gebruikt met een lege wachtzin. U moet een aparte portemonnee maken met de installatiewizard voor andere wachtzinnen, aangezien elk een nieuwe set adressen genereert."
+msgid "Your current Electrum-GRS wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
+msgstr "Uw huidige Electrum-GRS-portemonnee kan uitsluitend worden gebruikt met een lege wachtzin. U moet een aparte portemonnee maken met de installatiewizard voor andere wachtzinnen, aangezien elk een nieuwe set adressen genereert."
 
 #: electrum/plugins/safe_t/safe_t.py:309
 #: electrum/plugins/keepkey/keepkey.py:335

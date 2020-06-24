@@ -267,8 +267,8 @@ msgid "About"
 msgstr "Névjegy"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:4
-msgid "About Electrum"
-msgstr "Az Electrumról"
+msgid "About Electrum-GRS"
+msgstr "Az Electrum-GRSról"
 
 #: electrum/plugins/trustedcoin/qt.py:248
 msgid "Accept"
@@ -349,8 +349,8 @@ msgstr "Haladó előnézet"
 
 #: electrum/plugins/trezor/qt.py:528 electrum/plugins/safe_t/qt.py:262
 #: electrum/plugins/keepkey/qt.py:386
-msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
-msgstr "A jelszavak letiltása után csak akkor párosíthatod az Electrum pénztárcádat, ha az üres jelszóval rendelkezett. Ha a jelszó nem volt üres, új pénztárcát kell létrehoznod a telepítő varázslóval. Ezt a tárcát bármikor, újra felhasználhatod a jelszavak újbóli engedélyezésével és a jelszó beírásával."
+msgid "After disabling passphrases, you can only pair this Electrum-GRS wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgstr "A jelszavak letiltása után csak akkor párosíthatod az Electrum-GRS pénztárcádat, ha az üres jelszóval rendelkezett. Ha a jelszó nem volt üres, új pénztárcát kell létrehoznod a telepítő varázslóval. Ezt a tárcát bármikor, újra felhasználhatod a jelszavak újbóli engedélyezésével és a jelszó beírásával."
 
 #: electrum/gui/qt/channels_list.py:111
 msgid "After that delay, funds will be sent to an address derived from your wallet seed."
@@ -367,7 +367,7 @@ msgstr "Minden mezőt ki kell tölteni"
 
 #: electrum/gui/qt/update_checker.py:89
 msgid "Already up to date"
-msgstr "Az Electrum naprakész"
+msgstr "Az Electrum-GRS naprakész"
 
 #: electrum/gui/qt/transaction_dialog.py:722
 msgid "Also, dust is not kept as change, but added to the fee."
@@ -457,9 +457,9 @@ msgstr "Arab"
 #: electrum/plugins/trezor/qt.py:585 electrum/plugins/safe_t/qt.py:319
 #: electrum/plugins/keepkey/qt.py:412
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has groestlcoins in it!"
 msgstr "Biztosan törölni szeretnéd az eszközt?\n"
-"A pénztárcádban még van bitcoin!"
+"A pénztárcádban még van groestlcoin!"
 
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:368
 #: electrum/gui/qt/channels_list.py:121
@@ -538,8 +538,8 @@ msgid "BIP39 seed"
 msgstr "BIP39 mag"
 
 #: electrum/gui/qt/seed_dialog.py:74
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "Lehetőség van más pénztárcák által generált BIP39 magok beimportálására az Electrum pénztárcába."
+msgid "BIP39 seeds can be imported in Electrum-GRS, so that users can access funds locked in other wallets."
+msgstr "Lehetőség van más pénztárcák által generált BIP39 magok beimportálására az Electrum-GRS pénztárcába."
 
 #: electrum/gui/qt/seed_dialog.py:76
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
@@ -598,8 +598,8 @@ msgid "Batch pay invoices"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:788
-msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
-msgstr "A hibajelentés előtt frissítsd az Electrumot a legfrissebb verzióra (legújabb kiadás vagy git HEAD), és írd bele a verziószámot is a jelentésbe."
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum-GRS (latest release or git HEAD), and include the version number in your report."
+msgstr "A hibajelentés előtt frissítsd az Electrum-GRSot a legfrissebb verzióra (legújabb kiadás vagy git HEAD), és írd bele a verziószámot is a jelentésbe."
 
 #: electrum/plugins/audio_modem/qt.py:58
 msgid "Bit rate [kbps]: "
@@ -614,16 +614,16 @@ msgid "BitBox02 Status"
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:94
-msgid "Bitcoin Address"
-msgstr "Bitcoin cím"
+msgid "Groestlcoin Address"
+msgstr "Groestlcoin cím"
 
 #: electrum/gui/qt/main_window.py:1451
-msgid "Bitcoin Address is None"
+msgid "Groestlcoin Address is None"
 msgstr "Ez a cím nem létezik"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:134
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "A Bitcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
+msgid "Groestlcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "A Groestlcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
 
 #: electrum/gui/qt/locktimeedit.py:36
 msgid "Block height"
@@ -1237,16 +1237,16 @@ msgid "Connection strings must be in <node_pubkey>@<host>:<port> format"
 msgstr "A csatlakozási kódnak <node_pubkey>@<host>:<port> formátumúnak kell lennie"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:16
-msgid "Connections with Electrum servers"
-msgstr "Kapcsolat az Electrum szerverekkel"
+msgid "Connections with Electrum-GRS servers"
+msgstr "Kapcsolat az Electrum-GRS szerverekkel"
 
 #: electrum/gui/kivy/uix/ui_screens/lightning.kv:16
 msgid "Connections with lightning nodes"
 msgstr "Kapcsolat Lightning csomópontokkal"
 
 #: electrum/network.py:202 electrum/network.py:210 electrum/network.py:218
-msgid "Consider trying to connect to a different server, or updating Electrum."
-msgstr "Érdemes lehet egy másik szerverhez csatlakozni, vagy frissíteni az Electrumot."
+msgid "Consider trying to connect to a different server, or updating Electrum-GRS."
+msgstr "Érdemes lehet egy másik szerverhez csatlakozni, vagy frissíteni az Electrum-GRSot."
 
 #: electrum/gui/text.py:78 electrum/gui/qt/main_window.py:695
 msgid "Contacts"
@@ -1279,7 +1279,7 @@ msgstr "Másolás és bezárás"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:95
 msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
-msgstr "Illeszd be a címzett Bitcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
+msgstr "Illeszd be a címzett Groestlcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
 
 #: electrum/gui/qt/transaction_dialog.py:248 electrum/gui/qt/util.py:762
 msgid "Copy to clipboard"
@@ -1538,8 +1538,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Eszközkommunikációs hiba. Kérjük, húzd ki és dugd be újra a Digital Bitbox-ot."
 
 #: electrum/plugins/ledger/ledger.py:228
-msgid "Device not in Bitcoin mode"
-msgstr "Az eszköz nem Bitcoin üzemmódban van"
+msgid "Device not in Groestlcoin mode"
+msgstr "Az eszköz nem Groestlcoin üzemmódban van"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1590,8 +1590,8 @@ msgid "Display your seed?"
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
-msgid "Distributed by Electrum Technologies GmbH"
-msgstr "Forgalmazza: Electrum Technologies GmbH"
+msgid "Distributed by Electrum-GRS Technologies GmbH"
+msgstr "Forgalmazza: Electrum-GRS Technologies GmbH"
 
 #: electrum/gui/qt/exception_window.py:80
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
@@ -1654,8 +1654,8 @@ msgid "Don't show this again."
 msgstr "Ne mutasd többször"
 
 #: electrum/gui/qt/installwizard.py:55
-msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
-msgstr "Egy programhiba miatt az Electrum régebbi verziói nem kezelték megfelelően az egymást követő szóközöket. Ha ezt a jelszót választod, akkor a régebbi verziókban nem tudod majd használni ezt a pénztárcát."
+msgid "Due to a bug, old versions of Electrum-GRS will NOT be creating the same wallet as newer versions or other software."
+msgstr "Egy programhiba miatt az Electrum-GRS régebbi verziói nem kezelték megfelelően az egymást követő szóközöket. Ha ezt a jelszót választod, akkor a régebbi verziókban nem tudod majd használni ezt a pénztárcát."
 
 #: electrum/i18n.py:68
 msgid "Dutch"
@@ -1683,69 +1683,69 @@ msgid "Edit {}"
 msgstr "{} szerkesztése"
 
 #: electrum/gui/qt/main_window.py:2984
-msgid "Electrum Plugins"
-msgstr "Electrum Pluginek"
+msgid "Electrum-GRS Plugins"
+msgstr "Electrum-GRS Pluginek"
 
 #: electrum/plugin.py:557
-msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
-msgstr "Az Electrum nem tudott megfelelően kapcsolódni az eszközhöz ({}).\n\n"
-"Mielőtt bármit is küldenél/fogadnál az ebben a pénztárcában lévő címekre, bizonyosodj meg róla, hogy képes vagy megfelelően kapcsolódni az eszközhöz, vagy hogy birtoklod a pénztárca magját (illetve a mag kiterjesztését/jelszavát, ha van). Kizárólag ekkor tudod majd elkölteni a Bitcoinjaid. Ellenkező esetben az összes fogadott Bitcoin elveszik (elkölthetetlen lesz)."
+msgid "Electrum-GRS cannot pair with your {}.\n\n"
+"Before you request groestlcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all groestlcoins you receive will be unspendable."
+msgstr "Az Electrum-GRS nem tudott megfelelően kapcsolódni az eszközhöz ({}).\n\n"
+"Mielőtt bármit is küldenél/fogadnál az ebben a pénztárcában lévő címekre, bizonyosodj meg róla, hogy képes vagy megfelelően kapcsolódni az eszközhöz, vagy hogy birtoklod a pénztárca magját (illetve a mag kiterjesztését/jelszavát, ha van). Kizárólag ekkor tudod majd elkölteni a Groestlcoinjaid. Ellenkező esetben az összes fogadott Groestlcoin elveszik (elkölthetetlen lesz)."
 
 #: electrum/gui/qt/installwizard.py:679
-msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Az Electrum távoli szerverekről kérdezi le a Bitcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrumra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
+msgid "Electrum-GRS communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum-GRS pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "Az Electrum-GRS távoli szerverekről kérdezi le a Groestlcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrum-GRSra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
 
 #: electrum/gui/qt/network_dialog.py:261
-msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
-msgstr "Az Electrum egyszerre több szerverhez is csatlakozik, hogy letöltse a blokk fejléceket, és hogy megkeresse a leghosszabb blokkláncot."
+msgid "Electrum-GRS connects to several nodes in order to download block headers and find out the longest blockchain."
+msgstr "Az Electrum-GRS egyszerre több szerverhez is csatlakozik, hogy letöltse a blokk fejléceket, és hogy megkeresse a leghosszabb blokkláncot."
 
 #: electrum/gui/qt/main_window.py:730
-msgid "Electrum preferences"
-msgstr "Electrum beállítások"
+msgid "Electrum-GRS preferences"
+msgstr "Electrum-GRS beállítások"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:9
-msgid "Electrum requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
-msgstr "Az Electrum egyszerre egy szerverről kérdezi le a tranzakciók listáját. A szerver által visszaadott listát ezután összehasonlítja más szerverek listáival, \"Egyszerű Fizetés Ellenőrzés\" (Simple Payment Verification / SPV) használatával."
+msgid "Electrum-GRS requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
+msgstr "Az Electrum-GRS egyszerre egy szerverről kérdezi le a tranzakciók listáját. A szerver által visszaadott listát ezután összehasonlítja más szerverek listáival, \"Egyszerű Fizetés Ellenőrzés\" (Simple Payment Verification / SPV) használatával."
 
 #: electrum/gui/qt/network_dialog.py:283
-msgid "Electrum sends your wallet addresses to a single server, in order to receive your transaction history."
-msgstr "Az Electrum a pénztárca címeit elküldi egy szervernek, hogy lekérdezze a címekhez tartozó tranzakciók listáját."
+msgid "Electrum-GRS sends your wallet addresses to a single server, in order to receive your transaction history."
+msgstr "Az Electrum-GRS a pénztárca címeit elküldi egy szervernek, hogy lekérdezze a címekhez tartozó tranzakciók listáját."
 
 #: electrum/gui/qt/installwizard.py:233
-msgid "Electrum wallet"
-msgstr "Electrum pénztárca"
+msgid "Electrum-GRS wallet"
+msgstr "Electrum-GRS pénztárca"
 
 #: electrum/gui/qt/main_window.py:620
-msgid "Electrum was unable to copy your wallet file to the specified location."
-msgstr "Az Electrum nem tudja másolni a tárcafájlodat a választott helyre."
+msgid "Electrum-GRS was unable to copy your wallet file to the specified location."
+msgstr "Az Electrum-GRS nem tudja másolni a tárcafájlodat a választott helyre."
 
 #: electrum/gui/qt/transaction_dialog.py:87
-msgid "Electrum was unable to deserialize the transaction:"
-msgstr "Az Electrum nem tudta beolvasni a tranzakciót:"
+msgid "Electrum-GRS was unable to deserialize the transaction:"
+msgstr "Az Electrum-GRS nem tudta beolvasni a tranzakciót:"
 
 #: electrum/gui/qt/main_window.py:2658
-msgid "Electrum was unable to open your transaction file"
-msgstr "Az Electrum nem tudja megnyitni a tranzakciós fájlt"
+msgid "Electrum-GRS was unable to open your transaction file"
+msgstr "Az Electrum-GRS nem tudja megnyitni a tranzakciós fájlt"
 
 #: electrum/gui/qt/main_window.py:2615
-msgid "Electrum was unable to parse your transaction"
-msgstr "Az Electrum nem tudja feldolgozni a tranzakciódat"
+msgid "Electrum-GRS was unable to parse your transaction"
+msgstr "Az Electrum-GRS nem tudja feldolgozni a tranzakciódat"
 
 #: electrum/gui/qt/main_window.py:2783
-msgid "Electrum was unable to produce a private key-export."
-msgstr "Az Electrum nem tudja exportálni a privát kulcsot."
+msgid "Electrum-GRS was unable to produce a private key-export."
+msgstr "Az Electrum-GRS nem tudja exportálni a privát kulcsot."
 
 #: electrum/gui/qt/history_list.py:755
-msgid "Electrum was unable to produce a transaction export."
-msgstr "Az Electrum nem tudja exportálni a tranzakciót."
+msgid "Electrum-GRS was unable to produce a transaction export."
+msgstr "Az Electrum-GRS nem tudja exportálni a tranzakciót."
 
 #: electrum/gui/qt/main_window.py:3220
-msgid "Electrum will now exit."
+msgid "Electrum-GRS will now exit."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:774
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum-GRS's focus is speed, with low resource usage and simplifying Groestlcoin."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -1895,12 +1895,12 @@ msgid "Enter a label to name your device:"
 msgstr "Adj meg egy címkét a készülék elnevezéséhez:"
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
+msgid "Enter a list of Groestlcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Adj meg Groestlcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
 
 #: electrum/gui/qt/main_window.py:1952
 msgid "Enter a list of outputs in the 'Pay to' field."
-msgstr "Írd be a Bitcoin címeket a \"Pénzküldés ide\" mezőbe."
+msgstr "Írd be a Groestlcoin címeket a \"Pénzküldés ide\" mezőbe."
 
 #: electrum/plugins/trezor/clientbase.py:262
 #: electrum/plugins/safe_t/clientbase.py:54
@@ -1915,8 +1915,8 @@ msgstr "Adj meg egy új jelszót."
 #: electrum/plugins/trezor/clientbase.py:279
 #: electrum/plugins/safe_t/clientbase.py:74
 #: electrum/plugins/keepkey/clientbase.py:69
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
-msgstr "Adj meg egy jelszót a pénztárca létrehozásához. Minden alkalommal, amikor ezt a pénztárcát használod, az eszköz ({}) kérni fogja a jelszót. Ha elfelejted a jelszót, akkor nem fogsz tudni hozzáférni a pénztárcában lévő Bitcoinokhoz. A magból sem tudod majd visszaállítani, ha elfelejtetted a jelszót. Ne felejtsd el a jelszót!"
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the groestlcoins in the wallet."
+msgstr "Adj meg egy jelszót a pénztárca létrehozásához. Minden alkalommal, amikor ezt a pénztárcát használod, az eszköz ({}) kérni fogja a jelszót. Ha elfelejted a jelszót, akkor nem fogsz tudni hozzáférni a pénztárcában lévő Groestlcoinokhoz. A magból sem tudod majd visszaállítani, ha elfelejtetted a jelszót. Ne felejtsd el a jelszót!"
 
 #: electrum/gui/qt/main_window.py:2926
 msgid "Enter addresses"
@@ -2121,8 +2121,8 @@ msgid "Estimate"
 msgstr "Nagyjából"
 
 #: electrum/gui/qt/__init__.py:173
-msgid "Exit Electrum"
-msgstr "Electrum bezárása"
+msgid "Exit Electrum-GRS"
+msgstr "Electrum-GRS bezárása"
 
 #: electrum/gui/qt/history_list.py:573
 msgid "Expenditures"
@@ -2141,8 +2141,8 @@ msgid "Expired"
 msgstr "Lejárt"
 
 #: electrum/gui/qt/main_window.py:1087
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "A lejárt kérelmeket kézzel kell kitörölnöd, ha fel szeretnéd szabadítani a hozzájuk tartozó Bitcoin címeket."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Groestlcoin addresses."
+msgstr "A lejárt kérelmeket kézzel kell kitörölnöd, ha fel szeretnéd szabadítani a hozzájuk tartozó Groestlcoin címeket."
 
 #: electrum/gui/qt/main_window.py:2008 electrum/gui/qt/main_window.py:2049
 #: electrum/invoices.py:95
@@ -2294,8 +2294,8 @@ msgid "Firmware Version"
 msgstr "Firmware-verzió"
 
 #: electrum/plugins/ledger/ledger.py:42
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Az eszköz firmware-je (vagy a \"Bitcoin\" alkalmazás) túl régi, a Segwit-et nem támogatja. Kérjük frissítsd:"
+msgid "Firmware version (or \"Groestlcoin\" app) too old for Segwit support. Please update at"
+msgstr "Az eszköz firmware-je (vagy a \"Groestlcoin\" alkalmazás) túl régi, a Segwit-et nem támogatja. Kérjük frissítsd:"
 
 #: electrum/plugins/trezor/qt.py:425
 msgid "Firmware version too old."
@@ -2328,8 +2328,8 @@ msgid "For more information, visit"
 msgstr "További információért keresd fel az alábbi weblapot:"
 
 #: electrum/gui/qt/main_window.py:285
-msgid "For security reasons we advise that you always use the latest version of Electrum."
-msgstr "Biztonsági okokból ajánlott mindig az Electrum legújabb verzióját használni."
+msgid "For security reasons we advise that you always use the latest version of Electrum-GRS."
+msgstr "Biztonsági okokból ajánlott mindig az Electrum-GRS legújabb verzióját használni."
 
 #: electrum/gui/qt/channels_list.py:193
 msgid "Force-close channel"
@@ -2525,7 +2525,7 @@ msgstr "Viszont a hardveres pénztárcák nem támogatják az üzenet dekódolá
 
 #: electrum/gui/qt/seed_dialog.py:75
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
-msgstr "Viszont az Electrum nem generál új BIP39-es magokat, mivel azok nem felelnek meg a biztonsági szabványainknak."
+msgstr "Viszont az Electrum-GRS nem generál új BIP39-es magokat, mivel azok nem felelnek meg a biztonsági szabványainknak."
 
 #: electrum/i18n.py:60
 msgid "Hungarian"
@@ -2546,25 +2546,25 @@ msgstr "IP/port az alábbi formátumban:\n"
 "[host]:[port]"
 
 #: electrum/gui/qt/network_dialog.py:274
-msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
-msgstr "Ha az automatikus csatlakozás be van kapcsolva, akkor az Electrum mindig egy olyan szervert fog választani, amelyiknek a blokklánca a leghosszabb."
+msgid "If auto-connect is enabled, Electrum-GRS will always use a server that is on the longest blockchain."
+msgstr "Ha az automatikus csatlakozás be van kapcsolva, akkor az Electrum-GRS mindig egy olyan szervert fog választani, amelyiknek a blokklánca a leghosszabb."
 
 #: electrum/gui/qt/settings_dialog.py:324
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr "Ha engedélyezve van, akkor emiatt legfeljebb 100 satoshi veszhet el tranzakciónként."
 
 #: electrum/gui/qt/network_dialog.py:275
-msgid "If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
-msgstr "Ha nincs engedélyezve, akkor manuálisan kell kiválasztanod egy szervert. Az Electrum figyelmeztetni fog, ha ez a szerver lemaradásban van."
+msgid "If it is disabled, you have to choose a server you want to use. Electrum-GRS will warn you if your server is lagging."
+msgstr "Ha nincs engedélyezve, akkor manuálisan kell kiválasztanod egy szervert. Az Electrum-GRS figyelmeztetni fog, ha ez a szerver lemaradásban van."
 
 #: electrum/gui/qt/settings_dialog.py:132
-msgid "If this option is checked, Electrum will\n"
+msgid "If this option is checked, Electrum-GRS will\n"
 "run a local watchtower to watch your channels if your wallet is not\n"
 "open. For this to work, your computer needs to be online regularly."
 msgstr ""
 
 #: electrum/gui/qt/settings_dialog.py:143
-msgid "If this option is checked, Electrum will persist as a daemon after\n"
+msgid "If this option is checked, Electrum-GRS will persist as a daemon after\n"
 "you close all your wallet windows. Use this to keep your local watchtower running"
 msgstr ""
 
@@ -2586,8 +2586,8 @@ msgstr "Ha bejelölöd ezt a négyzetet, akkor a meg nem erősített tranzakció
 
 #: electrum/plugins/trezor/qt.py:722 electrum/plugins/safe_t/qt.py:456
 #: electrum/plugins/keepkey/qt.py:529
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
-msgstr "Ha kikapcsolod a PIN kódos védelmet, akkor bárki, aki hozzáfér az eszközödhöz ({}), hozzá tud férni a Bitcoinjaidhoz is."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your groestlcoins."
+msgstr "Ha kikapcsolod a PIN kódos védelmet, akkor bárki, aki hozzáfér az eszközödhöz ({}), hozzá tud férni a Groestlcoinjaidhoz is."
 
 #: electrum/base_wizard.py:478
 msgid "If you do not know what this is, leave this field empty."
@@ -2595,8 +2595,8 @@ msgstr "Ha nem tudod pontosan, hogy ez mit jelent, akkor hagyd üresen."
 
 #: electrum/plugins/trezor/qt.py:34 electrum/plugins/safe_t/qt.py:34
 #: electrum/plugins/keepkey/qt.py:34
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
-msgstr "Ha elfelejtesz egy jelszót, akkor elvesznek az abban a pénztárcában tárolt Bitcoinok is. A jelszó nem egy PIN kód. Csak akkor változtasd ezt meg, ha pontosan tudod, hogy ez mit jelent."
+msgid "If you forget a passphrase you will be unable to access any groestlcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Ha elfelejtesz egy jelszót, akkor elvesznek az abban a pénztárcában tárolt Groestlcoinok is. A jelszó nem egy PIN kód. Csak akkor változtasd ezt meg, ha pontosan tudod, hogy ez mit jelent."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:839
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
@@ -2658,12 +2658,12 @@ msgid "Import"
 msgstr "Importálás"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
-msgstr "Bitcoin címek importálása"
+msgid "Import Groestlcoin Addresses"
+msgstr "Groestlcoin címek importálása"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Bitcoin címek vagy privát kulcsok importálása"
+msgid "Import Groestlcoin addresses or private keys"
+msgstr "Groestlcoin címek vagy privát kulcsok importálása"
 
 #: electrum/gui/kivy/main_window.py:1306
 msgid "Import Channel Backup?"
@@ -2829,17 +2829,17 @@ msgstr "Érvénytelen összeg"
 
 #: electrum/gui/kivy/uix/screens.py:312
 #: electrum/plugins/hw_wallet/plugin.py:125
-msgid "Invalid Bitcoin Address"
-msgstr "Érvénytelen Bitcoin cím"
+msgid "Invalid Groestlcoin Address"
+msgstr "Érvénytelen Groestlcoin cím"
 
 #: electrum/gui/stdio.py:175 electrum/gui/text.py:352
-msgid "Invalid Bitcoin address"
-msgstr "Érvénytelen Bitcoin cím"
+msgid "Invalid Groestlcoin address"
+msgstr "Érvénytelen Groestlcoin cím"
 
 #: electrum/wallet.py:1804 electrum/gui/qt/main_window.py:2454
 #: electrum/gui/qt/main_window.py:2482
-msgid "Invalid Bitcoin address."
-msgstr "Érvénytelen Bitcoin cím."
+msgid "Invalid Groestlcoin address."
+msgstr "Érvénytelen Groestlcoin cím."
 
 #: electrum/gui/stdio.py:185 electrum/gui/text.py:362
 msgid "Invalid Fee"
@@ -2902,7 +2902,7 @@ msgstr "Számlák"
 
 #: electrum/gui/qt/installwizard.py:43
 msgid "It also contains your master public key that allows watching your addresses."
-msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítségével figyelheted a Bitcoin-címeid."
+msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítségével figyelheted a Groestlcoin-címeid."
 
 #: electrum/gui/qt/main_window.py:2710
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
@@ -2938,7 +2938,7 @@ msgstr "KeepKey pénztárca"
 
 #: electrum/gui/qt/main_window.py:1338
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Bitcoin mennyiség beíródik a mezőbe."
+msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Groestlcoin mennyiség beíródik a mezőbe."
 
 #: electrum/base_wizard.py:206
 msgid "Keystore"
@@ -3073,8 +3073,8 @@ msgid "Lightning keys have been removed. This wallet will be closed"
 msgstr "Lightning kulcsok eltávolítva. Ez a pénztárca be lesz zárva."
 
 #: electrum/gui/kivy/main_window.py:1173 electrum/gui/qt/main_window.py:2277
-msgid "Lightning support in Electrum is experimental. Do not put large amounts in lightning channels."
-msgstr "A Lightning még csak kísérleti fázisban van az Electrumban. Ne tegyél nagy összegeket Lightning csatornákba."
+msgid "Lightning support in Electrum-GRS is experimental. Do not put large amounts in lightning channels."
+msgstr "A Lightning még csak kísérleti fázisban van az Electrum-GRSban. Ne tegyél nagy összegeket Lightning csatornákba."
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:35
 msgid "Lightning:"
@@ -3145,8 +3145,8 @@ msgid "Make sure you install it with python3"
 msgstr "Bizonyosodj meg róla, hogy python3-al telepíted"
 
 #: electrum/gui/qt/main_window.py:547
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Bizonyosodj meg róla, hogy birtokában vagy a pénztárca magjának vagy a privát kulcsoknak, mielőtt Bitcoint fogadnál."
+msgid "Make sure you own the seed phrase or the private keys, before you request Groestlcoins to be sent to this wallet."
+msgstr "Bizonyosodj meg róla, hogy birtokában vagy a pénztárca magjának vagy a privát kulcsoknak, mielőtt Groestlcoint fogadnál."
 
 #: electrum/plugins/coldcard/qt.py:134
 msgid "Master Fingerprint"
@@ -3577,8 +3577,8 @@ msgstr "Csak egy szerverhez csatlakozzon"
 
 #: electrum/plugins/trezor/qt.py:747 electrum/plugins/safe_t/qt.py:481
 #: electrum/plugins/keepkey/qt.py:554
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr "Kizárólag akkor töröld az eszközt, ha a visszaállításhoz szükséges magot már leírtad, és az eszközön lévő pénztárcák üresek. Ellenkező esetben az eszközön lévő összes Bitcoin elveszik."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the groestlcoins will be lost forever."
+msgstr "Kizárólag akkor töröld az eszközt, ha a visszaállításhoz szükséges magot már leírtad, és az eszközön lévő pénztárcák üresek. Ellenkező esetben az eszközön lévő összes Groestlcoin elveszik."
 
 #: electrum/gui/qt/channels_list.py:284 electrum/gui/qt/channels_list.py:309
 msgid "Open Channel"
@@ -3675,8 +3675,8 @@ msgstr ""
 
 #: electrum/plugins/trezor/qt.py:656 electrum/plugins/safe_t/qt.py:390
 #: electrum/plugins/keepkey/qt.py:486
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
-msgstr "A PIN kódos védelem használata erősen ajánlott. A PIN kód az egyetlen mód arra, hogy megvédd a Bitcoinjaid, ha valaki fizikai hozzáférést szerez az eszközödhöz ({})."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your groestlcoins if they obtain physical access to your {}."
+msgstr "A PIN kódos védelem használata erősen ajánlott. A PIN kód az egyetlen mód arra, hogy megvédd a Groestlcoinjaid, ha valaki fizikai hozzáférést szerez az eszközödhöz ({})."
 
 #: electrum/plugins/trezor/qt.py:615 electrum/plugins/safe_t/qt.py:349
 #: electrum/plugins/keepkey/qt.py:444
@@ -3927,8 +3927,8 @@ msgid "Please report this issue manually"
 msgstr "Kérjük jelentsd ezt a hibát manuálisan"
 
 #: electrum/gui/qt/main_window.py:2958
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Indítsd újra az Electrumot az új GUI beállítások aktiválásához."
+msgid "Please restart Electrum-GRS to activate the new GUI settings"
+msgstr "Indítsd újra az Electrum-GRSot az új GUI beállítások aktiválásához."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1122
 msgid "Please retype your seed phrase, to confirm that you properly saved it"
@@ -3940,8 +3940,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Írd le ezt a {0} szót egy papírra (a sorrend is fontos). Ezekere a szavakra a továbbiakban \"mag\"-ként hivatkozunk. "
 
 #: electrum/gui/kivy/uix/screens.py:294
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Kérjük szkennelj be egy Bitcoin címet, vagy egy fizetési kérelmet"
+msgid "Please scan a Groestlcoin address or a payment request"
+msgstr "Kérjük szkennelj be egy Groestlcoin címet, vagy egy fizetési kérelmet"
 
 #: electrum/gui/qt/main_window.py:601
 msgid "Please select a backup directory"
@@ -3977,8 +3977,8 @@ msgid "Please wait"
 msgstr "Kérlek várj"
 
 #: electrum/gui/qt/update_checker.py:93
-msgid "Please wait while Electrum checks for available updates."
-msgstr "Kérjük várj amíg az Electrum ellenőrzi az elérhető frissítéseket."
+msgid "Please wait while Electrum-GRS checks for available updates."
+msgstr "Kérjük várj amíg az Electrum-GRS ellenőrzi az elérhető frissítéseket."
 
 #: electrum/gui/stdio.py:211 electrum/gui/text.py:382
 #: electrum/gui/kivy/uix/dialogs/password_dialog.py:242
@@ -4116,8 +4116,8 @@ msgid "Proxy mode"
 msgstr "Proxy mód"
 
 #: electrum/gui/qt/network_dialog.py:250
-msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
-msgstr "A proxy beállítások az összes kapcsolatra érvényesek: az Electrum szervereire, és a harmadik fél szolgáltatásaira is."
+msgid "Proxy settings apply to all connections: with Electrum-GRS servers, but also with third-party services."
+msgstr "A proxy beállítások az összes kapcsolatra érvényesek: az Electrum-GRS szervereire, és a harmadik fél szolgáltatásaira is."
 
 #: electrum/gui/qt/network_dialog.py:226
 msgid "Proxy user"
@@ -4435,8 +4435,8 @@ msgid "Save transaction offline"
 msgstr "Tranzakció offline elmentése"
 
 #: electrum/plugins/labels/__init__.py:5
-msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum."
-msgstr "Elmentheted a pénztárcád címkéit egy távoli szerverre, és szinkronizálhatod őket azokon az eszközökön, ahol az Electrumot használod."
+msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum-GRS."
+msgstr "Elmentheted a pénztárcád címkéit egy távoli szerverre, és szinkronizálhatod őket azokon az eszközökön, ahol az Electrum-GRSot használod."
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:169
 msgid "Scan"
@@ -4682,8 +4682,8 @@ msgid "Shamir"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:126
-msgid "Share Bitcoin Request"
-msgstr "Bitcoin kérelem megosztása"
+msgid "Share Groestlcoin Request"
+msgstr "Groestlcoin kérelem megosztása"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:121
 msgid "Share Invoice"
@@ -4831,8 +4831,8 @@ msgid "Slovenian"
 msgstr "Szlovén"
 
 #: electrum/base_crash_reporter.py:54
-msgid "Something went wrong while executing Electrum."
-msgstr "Valami hiba történt az Electrum futása közben."
+msgid "Something went wrong while executing Electrum-GRS."
+msgstr "Valami hiba történt az Electrum-GRS futása közben."
 
 #: electrum/base_crash_reporter.py:55
 msgid "Sorry!"
@@ -4879,7 +4879,7 @@ msgid "Start"
 msgstr "Kezdet"
 
 #: electrum/gui/qt/main_window.py:777
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Groestlcoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:169
@@ -4991,11 +4991,11 @@ msgstr "Testnet"
 
 #: electrum/gui/qt/main_window.py:563
 msgid "Testnet coins are worthless."
-msgstr "A Testnet-en lévő Bitcoinok értéktelenek."
+msgstr "A Testnet-en lévő Groestlcoinok értéktelenek."
 
 #: electrum/gui/qt/main_window.py:564
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "A Testnet egy külön Bitcoin hálózat, amit tesztelésre használnak."
+msgid "Testnet is separate from the main Groestlcoin network. It is used for testing."
+msgstr "A Testnet egy külön Groestlcoin hálózat, amit tesztelésre használnak."
 
 #: electrum/gui/qt/qrcodewidget.py:138 electrum/gui/qt/main_window.py:1251
 #: electrum/gui/qt/util.py:766
@@ -5045,8 +5045,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "Az összeg piros színű lesz, ha nincs elég pénz a pénztárcában."
 
 #: electrum/gui/qt/main_window.py:1088
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "A kérelemhez tartozó Bitcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
+msgid "The groestlcoin address never expires and will always be part of this electrum-grs wallet."
+msgstr "A kérelemhez tartozó Groestlcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
 
 #: electrum/gui/qt/main_window.py:1328
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -5112,8 +5112,8 @@ msgid "The next step will generate the seed of your wallet.  This seed will NOT 
 msgstr "A következő lépésben a pénztárca magja lesz legenerálva. Ez a mag NEM lesz elmentve a számítógépre, hanem egy papírra kell felírnod. Ahhoz, hogy biztonságban legyél a rosszindulatú programok ellen, érdemes lehet ezt egy offline számítógépen csinálni, és a pénztárcát ezután egy online számítógépre átmásolni."
 
 #: electrum/gui/qt/main_window.py:2447
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Ez a művelet nincs definiálva. Nem csak az Electrumban, hanem egyáltalán."
+msgid "The operation is undefined. Not just in Electrum-GRS, but in general."
+msgstr "Ez a művelet nincs definiálva. Nem csak az Electrum-GRSban, hanem egyáltalán."
 
 #: electrum/network.py:209
 msgid "The server returned an error when broadcasting the transaction."
@@ -5140,9 +5140,9 @@ msgid "The type of addresses used by your wallet will depend on your seed."
 msgstr "A pénztárcád által használt címek típusa a magtól fognak függeni."
 
 #: electrum/gui/qt/installwizard.py:360
-msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
+msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum-GRS 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
-msgstr "A(z) \"{}\" pénztárca fájl több fiókot is tartalmaz, ami az Electrum 2.7-es verziója óta nem támogatott.\n\n"
+msgstr "A(z) \"{}\" pénztárca fájl több fiókot is tartalmaz, ami az Electrum-GRS 2.7-es verziója óta nem támogatott.\n\n"
 "Szeretnéd szétválasztani ezt a pénztárca fájlt több fájlra?"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:715
@@ -5258,8 +5258,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Ez magasabb tranzakciós díjakhoz vezethet."
 
 #: electrum/gui/qt/main_window.py:546
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Ez azt jelenti, hogy nem tudsz vele Bitcoint küldeni."
+msgid "This means you will not be able to spend Groestlcoins with it."
+msgstr "Ez azt jelenti, hogy nem tudsz vele Groestlcoint küldeni."
 
 #: electrum/gui/qt/settings_dialog.py:323
 msgid "This might improve your privacy somewhat."
@@ -5357,8 +5357,8 @@ msgid "This will send {}?"
 msgstr ""
 
 #: electrum/base_wizard.py:653
-msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive bitcoins during the transition period."
-msgstr "Emiatt érdemes lehet egy hagyományos pénztárcát is létrehozni, hogy az átállási időszak alatt is mindenhonnan tudj Bitcoint fogadni."
+msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive groestlcoins during the transition period."
+msgstr "Emiatt érdemes lehet egy hagyományos pénztárcát is létrehozni, hogy az átállási időszak alatt is mindenhonnan tudj Groestlcoint fogadni."
 
 #: electrum/gui/qt/history_list.py:493
 msgid "To"
@@ -5411,8 +5411,8 @@ msgid "To prevent that, you should have a backup of this channel on another devi
 msgstr ""
 
 #: electrum/gui/qt/transaction_dialog.py:719
-msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
-msgstr "Az anonimitásod növelése érdekében az Electrum megpróbálja a visszajáró összeget úgy alakítani, hogy annak a pontossága hasonló legyen a többi kimenethez."
+msgid "To somewhat protect your privacy, Electrum-GRS tries to create change with similar precision to other outputs."
+msgstr "Az anonimitásod növelése érdekében az Electrum-GRS megpróbálja a visszajáró összeget úgy alakítani, hogy annak a pontossága hasonló legyen a többi kimenethez."
 
 #: electrum/base_wizard.py:335
 msgid "To trigger a rescan, press 'Next'."
@@ -5700,8 +5700,8 @@ msgid "Update check failed"
 msgstr "Frissítések keresése sikertelen"
 
 #: electrum/gui/qt/main_window.py:294
-msgid "Update to Electrum {} is available"
-msgstr "Frissítés elérhető az Electrum {} verzióra"
+msgid "Update to Electrum-GRS {} is available"
+msgstr "Frissítés elérhető az Electrum-GRS {} verzióra"
 
 #: electrum/plugins/coldcard/qt.py:151
 msgid "Upgrade"
@@ -5877,8 +5877,8 @@ msgid "WARNINGS"
 msgstr "FIGYELEM"
 
 #: electrum/gui/qt/installwizard.py:45
-msgid "WIF keys are typed in Electrum, based on script type."
-msgstr "A WIF kulcsoknak az Electrumban típusai vannak, amik a script típustól függenek."
+msgid "WIF keys are typed in Electrum-GRS, based on script type."
+msgstr "A WIF kulcsoknak az Electrum-GRSban típusai vannak, amik a script típustól függenek."
 
 #: electrum/plugins/trustedcoin/qt.py:75
 msgid "Waiting for TrustedCoin server to sign transaction..."
@@ -5990,8 +5990,8 @@ msgid "Watchtower"
 msgstr "Őrtorony"
 
 #: electrum/gui/qt/seed_dialog.py:77
-msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
-msgstr "Nem garantáljuk, hogy az Electrum későbbi verzióiban is lesz lehetőség BIP39-es magok importálására."
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum-GRS."
+msgstr "Nem garantáljuk, hogy az Electrum-GRS későbbi verzióiban is lesz lehetőség BIP39-es magok importálására."
 
 #: electrum/base_wizard.py:368
 msgid "We encountered an error while connecting to your device:"
@@ -6002,8 +6002,8 @@ msgid "What kind of wallet do you want to create?"
 msgstr "Milyen típusú pénztárcát szeretnél készíteni?"
 
 #: electrum/base_wizard.py:339
-msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
-msgstr "Esetleg az is segíthet, ha az Electrumot rendszergazdaként futtatod."
+msgid "While this is less than ideal, it might help if you run Electrum-GRS as Administrator."
+msgstr "Esetleg az is segíthet, ha az Electrum-GRSot rendszergazdaként futtatod."
 
 #: electrum/plugins/trezor/qt.py:740 electrum/plugins/safe_t/qt.py:474
 #: electrum/plugins/keepkey/qt.py:547
@@ -6024,8 +6024,8 @@ msgid "Witness Script"
 msgstr "Witness Script"
 
 #: electrum/gui/qt/main_window.py:286
-msgid "Would you like to be notified when there is a newer version of Electrum available?"
-msgstr "Szeretnél egy értesítést kapni, ha elérhető az Electrum egy újabb verziója?"
+msgid "Would you like to be notified when there is a newer version of Electrum-GRS available?"
+msgstr "Szeretnél egy értesítést kapni, ha elérhető az Electrum-GRS egy újabb verziója?"
 
 #: electrum/plugins/trezor/clientbase.py:24
 #: electrum/plugins/safe_t/clientbase.py:22
@@ -6060,8 +6060,8 @@ msgid "Yes"
 msgstr "Igen"
 
 #: electrum/gui/qt/update_checker.py:90
-msgid "You are already on the latest version of Electrum."
-msgstr "Az Electrum legújabb verzióját használod."
+msgid "You are already on the latest version of Electrum-GRS."
+msgstr "Az Electrum-GRS legújabb verzióját használod."
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:52
 #: electrum/gui/qt/network_dialog.py:344
@@ -6073,8 +6073,8 @@ msgid "You are in testnet mode."
 msgstr "Testnet módban vagy."
 
 #: electrum/crypto.py:166
-msgid "You are most likely using an outdated version of Electrum. Please update."
-msgstr "Valószínűleg az Electrum egy régi verzióját használod. Kérjük frissítsd."
+msgid "You are most likely using an outdated version of Electrum-GRS. Please update."
+msgstr "Valószínűleg az Electrum-GRS egy régi verzióját használod. Kérjük frissítsd."
 
 #: electrum/plugins/labels/labels.py:170 electrum/plugins/labels/labels.py:174
 msgid "You are offline."
@@ -6121,8 +6121,8 @@ msgid "You have multiple consecutive whitespaces or leading/trailing whitespaces
 msgstr "A jelszó elején/végén extra szóköz karakterek vannak, vagy a jelszó több egymást követő szóköz karaktert tartalmaz."
 
 #: electrum/gui/qt/main_window.py:1317
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Írj be egy Bitcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Bitcoin címére továbbít)"
+msgid "You may enter a Groestlcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Groestlcoin address)"
+msgstr "Írj be egy Groestlcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Groestlcoin címére továbbít)"
 
 #: electrum/base_wizard.py:473
 msgid "You may extend your seed with custom words."
@@ -6137,8 +6137,8 @@ msgid "You might have an incompatible library."
 msgstr "Valószínűleg egy programkönyvtár nem kompatibilis."
 
 #: electrum/plugins/trustedcoin/qt.py:217
-msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum."
-msgstr "Ahhoz, hogy a pénztárca létrejöjjön, internetkapcsolatra van szükség. Ha a magot már legeneráltad egy offline számítógépen, akkor zárd be ezt az ablakot a \"{}\" gombra kattintva, másold át a pénztárca fájlt egy online számítógépre, és nyisd meg ott az Electrummal."
+msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum-GRS."
+msgstr "Ahhoz, hogy a pénztárca létrejöjjön, internetkapcsolatra van szükség. Ha a magot már legeneráltad egy offline számítógépen, akkor zárd be ezt az ablakot a \"{}\" gombra kattintva, másold át a pénztárca fájlt egy online számítógépre, és nyisd meg ott az Electrum-GRSmal."
 
 #: electrum/gui/qt/main_window.py:626
 msgid "You need to configure a backup directory in your preferences"
@@ -6146,8 +6146,8 @@ msgstr ""
 
 #: electrum/plugins/trezor/qt.py:26 electrum/plugins/safe_t/qt.py:26
 #: electrum/plugins/keepkey/qt.py:26
-msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
-msgstr "Minden jelszóhoz külön Electrum pénztárcát kell létrehoznod, mivel minden jelszó különböző címeket generál. A jelszó megváltoztatásával nem veszíted el a többi pénztárcádat, mindegyiket el tudod érni a hozzá tartozó jelszóval."
+msgid "You need to create a separate Electrum-GRS wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr "Minden jelszóhoz külön Electrum-GRS pénztárcát kell létrehoznod, mivel minden jelszó különböző címeket generál. A jelszó megváltoztatásával nem veszíted el a többi pénztárcádat, mindegyiket el tudod érni a hozzá tartozó jelszóval."
 
 #: electrum/gui/qt/swap_dialog.py:66
 msgid "You receive"
@@ -6159,7 +6159,7 @@ msgstr ""
 
 #: electrum/plugins/trezor/qt.py:31 electrum/plugins/safe_t/qt.py:31
 #: electrum/plugins/keepkey/qt.py:31
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your groestlcoins if your device is lost or stolen."
 msgstr "Erősen ajánlott a PIN kódos védelem engedélyezése. A PIN kód az egyetlen dolog ami megvédi az eszközt, ha az elveszik, vagy ha ellopják."
 
 #: electrum/plugins/trezor/trezor.py:231 electrum/plugins/safe_t/safe_t.py:206
@@ -6185,13 +6185,13 @@ msgid "Your accounts have been moved to"
 msgstr "A fiókok át lettek helyezve ide"
 
 #: electrum/gui/qt/password_dialog.py:255
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "A Bitcoinjaid jelszó védi. Viszont a pénztárca fájl nincs titkosítva."
+msgid "Your groestlcoins are password protected. However, your wallet file is not encrypted."
+msgstr "A Groestlcoinjaid jelszó védi. Viszont a pénztárca fájl nincs titkosítva."
 
 #: electrum/plugins/trezor/qt.py:535 electrum/plugins/safe_t/qt.py:269
 #: electrum/plugins/keepkey/qt.py:393
-msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
-msgstr "A jelenlegi Electrum pénztárcád csak egy üres jelszóval használható. Minden jelszóhoz egy külön pénztárcát kell létrehoznod, mivel minden jelszó más címeket generál."
+msgid "Your current Electrum-GRS wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
+msgstr "A jelenlegi Electrum-GRS pénztárcád csak egy üres jelszóval használható. Minden jelszóhoz egy külön pénztárcát kell létrehoznod, mivel minden jelszó más címeket generál."
 
 #: electrum/plugins/safe_t/safe_t.py:309
 #: electrum/plugins/keepkey/keepkey.py:335
